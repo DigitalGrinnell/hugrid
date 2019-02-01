@@ -89,7 +89,7 @@
 .og-details {
 	width: 50%;
 	float: left;
-	height: 100%;
+	/* height: 100%; */       /* MAM: important to remove this! */  
 	overflow: hidden;
 	position: relative;
 }
