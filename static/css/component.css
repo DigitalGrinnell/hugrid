@@ -89,7 +89,7 @@
 .og-details {
 	width: 50%;
 	float: left;
-	/* height: 100%; */       /* MAM: important to remove this! */  
+	height: unset;       /* MAM: important to unset this!  Used to be 100% */  
 	overflow: hidden;
 	position: relative;
 }
@@ -191,5 +191,5 @@
 
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
-	
+
 }
